@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CSS_BASIC.iml" filepath="$PROJECT_DIR$/CSS_BASIC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CSS_SELECTORS/CSS_SELECTORS.iml" filepath="$PROJECT_DIR$/CSS_SELECTORS/CSS_SELECTORS.iml" />
     </modules>
   </component>
 </project>
