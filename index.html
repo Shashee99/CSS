@@ -53,8 +53,17 @@
     /*    }*/
 
     /*child combinator - direct child*/
-        body > h1{
-            color: blueviolet;
+    /*    body > h1{*/
+    /*        color: blueviolet;*/
+    /*    }*/
+    /*adjacent combinator */
+    /*    h1 + p{*/
+    /*        color:darkred;*/
+    /*    }*/
+    /*    sibling combinator */
+    /*    general sibling combinator*/
+        h1~p{
+            color : rebeccapurple;
         }
 
     </style>
@@ -62,16 +71,18 @@
 <body>
 <h1>out side of the header</h1>
 <header>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aspernatur autem cupiditate,
+        deserunt dolorum ex fugiat iure laborum laudantium molestias, nam omnis pariatur porro provident, quae sapiente
+        veritatis voluptates!</p>
+<section>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto dolores fugiat natus necessitatibus non nostrum odio quasi tempora? Dolorum fugit in perferendis quas. Blanditiis cupiditate perspiciatis sit, sunt veniam voluptates!
+    </p>
+</section>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aspernatur autem cupiditate,
+        deserunt dolorum ex fugiat iure laborum laudantium molestias, nam omnis pariatur porro provident, quae sapiente
+        veritatis voluptates!</p>
     <h1 id="myh">Hello CSS</h1>
-    <br>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aspernatur autem cupiditate,
-        deserunt dolorum ex fugiat iure laborum laudantium molestias, nam omnis pariatur porro provident, quae sapiente
-        veritatis voluptates!</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aspernatur autem cupiditate,
-        deserunt dolorum ex fugiat iure laborum laudantium molestias, nam omnis pariatur porro provident, quae sapiente
-        veritatis voluptates!</p>
-
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus adipisci aspernatur autem cupiditate,
         deserunt dolorum ex fugiat iure laborum laudantium molestias, nam omnis pariatur porro provident, quae sapiente
         veritatis voluptates!</p>
@@ -90,9 +101,7 @@
 <main>
 
 </main>
-<foot>
 
-</foot>
 
 
 </body>
