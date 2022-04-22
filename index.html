@@ -23,24 +23,32 @@
     /*    pseudo selectors*/
 
     /*    pseudo classes - SELECT ACCORDING TO THE ELEMENT STATE */
-        li:first-child{
-            color:red;
-        }
-        li:hover :last-child{
-            color:aqua;
-        }
-        li:nth-child(2){
-            color: aqua;
-        }
+    /*    li:first-child{*/
+    /*        color:red;*/
+    /*    }*/
+    /*    li:hover :last-child{*/
+    /*        color:aqua;*/
+    /*    }*/
+    /*    li:nth-child(2){*/
+    /*        color: aqua;*/
+    /*    }*/
 
-        p::first-letter{
-            color:aquamarine;
-            font-size: 50px;
-        }
-        p::selection{
-            background-color: darkgreen;
-            font-size: 100px;
-            color: aqua;
+    /*    p::first-letter{*/
+    /*        color:aquamarine;*/
+    /*        font-size: 50px;*/
+    /*    }*/
+    /*    p::selection{*/
+    /*        background-color: darkgreen;*/
+    /*        font-size: 100px;*/
+    /*        color: aqua;*/
+    /*    }*/
+    /*    li{*/
+    /*        list-style: lower-greek;*/
+    /*    }*/
+    /*css combinators*/
+        header h1{
+            color : darkblue;
+            background-color: lawngreen ;
         }
 
 
@@ -48,6 +56,7 @@
     </style>
 </head>
 <body>
+<h1>out side of the header</h1>
 <header>
     <h1 id="myh">Hello CSS</h1>
     <br>
